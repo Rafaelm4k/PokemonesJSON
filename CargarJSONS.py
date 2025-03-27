@@ -1,3 +1,4 @@
+import json
 def guardarJSON(datos, nombre):
     with open(nombre, "w") as file:
         json.dump(datos, file, indent=4)
